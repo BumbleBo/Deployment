@@ -1,4 +1,3 @@
 Deployment
 ==========
-wget https://raw.githubusercontent.com/Rinzler78/Deployment/master/ubuntu/deploy.sh
-sudo bash ./deploy.sh
+wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash
