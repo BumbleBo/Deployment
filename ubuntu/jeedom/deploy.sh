@@ -14,9 +14,7 @@ sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 886DDD89
 sudo apt-get install apt-transport-https
 sudo apt-get install -y apache2
 
-sudo wget https://raw.githubusercontent.com/jeedom/core/stable/install/install.sh
-sudo chmod +x install.sh
-sudo ./install.sh
+wget -O- https://raw.githubusercontent.com/jeedom/core/master/install/install.sh | sudo bash
 
 echo "Configure fstab"
 appendToFile "username=jeedom\npassword= ypi1FWY5" /home/pi/.RinzlerNasJeedomCred
