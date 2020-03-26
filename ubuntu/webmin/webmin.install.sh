@@ -3,4 +3,4 @@ sudo echo "deb http://download.webmin.com/download/repository sarge contrib" >> 
 sudo echo "deb http://webmin.mirror.somersettechsolutions.co.uk/repository sarge contrib" >> /etc/apt/sources.list
 sudo apt-get update -y
 sudo apt-get upgrade -y
-sudo apt-get install webmin
+sudo apt-get install -y webmin
